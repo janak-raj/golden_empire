@@ -32,7 +32,7 @@ window.raf = (function(){
     colNum          : 6,
     rowNum          : 6,
     winRate         : 20,
-    autoPlay        : true,
+    autoPlay        : false,
     autoSize        : false,
     autoPlayTime    : 10,
     layout          : 'compact',
