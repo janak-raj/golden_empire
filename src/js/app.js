@@ -1,4 +1,12 @@
 var fps           = 60;
+window.onload = function() {
+  playThemeSong();
+}
+
+function playThemeSong() {
+  var themeAudio = document.getElementById("mainThemeSound");
+  themeAudio.play();
+}
 
 function reelsSound() {
   var reelsAudio = document.getElementById("reelsSound");

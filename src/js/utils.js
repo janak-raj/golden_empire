@@ -16,10 +16,5 @@ function revealWelcomeScreen() {
 function revealGameScreen() {
     document.getElementById("gameLoader").style.display = "none";
     document.getElementById("window").style.display = "block";
-    playThemeSong();
 }
 
-function playThemeSong() {
-    var themeAudio = document.getElementById("mainThemeSound");
-    themeAudio.play();
-}
